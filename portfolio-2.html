@@ -1,3 +1,27 @@
+<!-- <!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <title>scottify.io</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="scottify.io" />
+    <meta name="keywords" content="vcard, resposnive, retina, resume, jquery, css3, bootstrap, Material CV, portfolio" />
+    <meta name="author" content="lmpixels" />
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css" type="text/css">
+    <link rel="stylesheet" href="css/animations.css" type="text/css">
+    <link rel="stylesheet" href="css/perfect-scrollbar.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <script src="js/modernizr.custom.js"></script>
+  </head> -->
+
 <div id="ajax-page" class="ajax-page-content">
     <div class="ajax-page-wrapper">
         <div class="ajax-page-nav">
@@ -11,25 +35,40 @@
         </div>
 
         <div class="ajax-page-title">
-            <h1>Portfolio Project 2</h1>
+            <h1>Astrawrites.com</h1>
         </div>
 
         <div class="row">
             <div class="col-sm-8 col-md-8 portfolio-block">
                 <div class="owl-carousel portfolio-page-carousel">
                     <div class="item">
-                        <img src="img/portfolio/full/1.jpg" alt="" />
+                        <img src="img/portfolio/astrawrites/1.JPG" alt="" />
                     </div>
                     <div class="item">
-                        <img src="img/portfolio/full/2.jpg" alt="" />
-                    </div>
-                    <div class="item">
-                        <img src="img/portfolio/full/3.jpg" alt="" />
+                        <img src="img/portfolio/astrawrites/2.JPG" alt="" />
                     </div>
                 </div>
 
-                <div class="portfolio-page-video embed-responsive embed-responsive-16by9">
-                  <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/97102654?autoplay=0"></iframe>
+                <div>
+                    <h2>Implementation</h2>
+                    <div class="px-2">
+                        <div class="py-2">                         
+                            <h3>Wordpress</h3>
+                            <p class="px-2 text-justify">Wordpress is the obvious choice for an easily user-managed site with dynamic content. A suitable theme was used to create a compelling storytelling experience. Accesibility was a major concern for the site, and the wealth of plugins and 3rd party support for Wordpress made implementing automatic translation and text-to-audio transcription. Transcription is handled via a plugin utilizing AWS Polly.</p>
+                        </div>
+                    </div>
+                    <h3>Hosting</h3>
+                    <div>
+                        <div class="px-2 py-2">
+                            <h4>Server</h4>
+                            <p class="px-2 text-justify">I wanted for SSH access and control over the wordpress server. I chose Amazon's Lightsail service over a standard EC2 instance as it offers a streamlined Wordpress installation out of the box with lower monthly cost than a comparable EC2 instance.</p>
+                        </div>
+                        <div class="px-2">
+                            <h4>Content Delivery</h4>
+                            <p class="px-2 text-justify">Wordpress has a handy plugin to utilize AWS CloudFront and S3 buckets. Media is offloaded from the WordPress server to an S3 to reduce load/server disk utilization, and files are cached at CloudFront edge locations around the world to speed up content delivery.</p>
+                        </div>
+                    </div>
+
                 </div>
 
                 <script type="text/javascript">
@@ -57,12 +96,12 @@
                         <h3>Description</h3>
                     </div>
                     <ul class="project-general-info">
-                        <li><p><i class="fa fa-user"></i> Alex Smith</p></li>
-                        <li><p><i class="fa fa-globe"></i> <a href="#" target="_blank">www.project-site.com</a></p></li>
-                        <li><p><i class="fa fa-calendar"></i> 25 december, 2016</p></li>
+                        <li><p><i class="fa fa-user"></i> Scott Lee</p></li>
+                        <li><p><i class="fa fa-globe"></i> <a href="astrawrites.com" target="_blank">astrawrites.com</a></p></li>
+                        <li><p><i class="fa fa-calendar"></i> April 23, 2020</p></li>
                     </ul>
 
-                    <p class="text-justify">Aliquam euismod aliquam massa, quis eleifend dui sodales vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+                    <p class="text-justify">Astra Lee is a speculative fiction writer. Astrawrites.com is her writing portfolio page and blog. It features multiligual text and audio transcription for reader accesibility.</p>
                     <!-- /Project Description -->
 
                     <!-- Technology -->
@@ -71,25 +110,14 @@
                             <h3>Technology</h3>
                         </div>
                         <ul class="tags">
-                            <li><a>HTML5</a></li>
-                            <li><a>CSS3</a></li>
-                            <li><a>jQuery</a></li>
-                            <li><a>Ajax</a></li>
-                            <li><a>PHP5</a></li>
+                            <li><a>Wordpress</a></li>
+                            <li><a>Amazon Lightsail</a></li>
+                            <li><a>Cloudfront</a></li>
+                            <li><a>S3</a></li>
+                            <li><a>AWS Polly</a></li>
                         </ul>
                     </div>
                     <!-- /Technology -->
-
-                    <!-- Share Buttons -->
-                    <div class="btn-group share-buttons">
-                        <div class="block-title">
-                            <h3>Share</h3>
-                        </div>
-                        <a href="#" target="_blank" class="btn"><i class="fab fa-facebook-f"></i> </a>
-                        <a href="#" target="_blank" class="btn"><i class="fab fa-twitter"></i> </a>
-                        <a href="#" target="_blank" class="btn"><i class="fab fa-dribbble"></i> </a>
-                    </div>
-                    <!-- /Share Buttons -->
                 </div>
                 <!-- Project Description -->
             </div>
