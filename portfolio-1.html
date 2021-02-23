@@ -1,4 +1,4 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en" class="no-js">
   <head>
     <meta charset="UTF-8" />
@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
     <link rel="stylesheet" href="css/main.css" type="text/css">
     <script src="js/modernizr.custom.js"></script>
-  </head> -->
+  </head>
   
 <div id="ajax-page" class="ajax-page-content">
     <div class="ajax-page-wrapper">
@@ -98,7 +98,28 @@
                             <p class="px-2 text-justify">Protocols are created when proposals are ratified by users. The protocol is given a unique number, and original creator of the proposal is displayed as well as the ratifying user and timestamp of ratification. Protocols have a review date at which time users will be notified to review the success of the protocol and amend, ratify, or abolish the protocol. Protocol numbers are unique and increment with each new protocol and will not be reassigned if it is abolished.</p>
                         </div>
                     </div>
-
+                    <h2>Implementation</h2>
+                    <div class="px-2">
+                        <div class="py-2">                         
+                            <h3>Front-End</h3>
+                                <div class="px-2 py-2">
+                                    <h4>React</h4>
+                                    <p class="px-2 py-2 text-justify"></p>
+                                </div>
+                                <h3>Back-End</h3>
+                                <div>
+                                    <div class="px-2 py-2">
+                                        <h4>Serverless Framework</h4>
+                                        <p class="px-2 py-2 text-justify">I wanted for SSH access and control over the wordpress server. I chose Amazon's Lightsail service over a standard EC2 instance as it offers a streamlined Wordpress installation out of the box with lower monthly cost than a comparable EC2 instance.</p>
+                                    </div>
+                                    <div class="px-2">
+                                        <h4>Content Delivery</h4>
+                                        <p class="px-2 text-justify">Wordpress has a handy plugin to utilize AWS CloudFront and S3 buckets. Media is offloaded from the WordPress server to an S3 to reduce load/server disk utilization, and files are cached at CloudFront edge locations around the world to speed up content delivery.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                
                 </div>
 
                     
